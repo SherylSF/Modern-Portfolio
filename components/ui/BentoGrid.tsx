@@ -35,8 +35,7 @@ export const BentoGridItem = ({
   title,
   description,
   description1,
-  header,
-  icon,
+
   id,
   titleClassName,
   imgClassName,
@@ -94,7 +93,7 @@ export const BentoGridItem = ({
             </div>
             {id === 6 && (
                 <BackgroundGradientAnimation>
-                    {/* <div className="absolute z-50 inset-0 flex items-center justify-center text-white font-bold"/> */}
+                    {/* <div className="absolute z-50 inset-0 flex items-center justify-center text-white font-bold"/>  */}
                 </BackgroundGradientAnimation>
             )}
             <div className={cn(
@@ -135,7 +134,8 @@ export const BentoGridItem = ({
             )}
             {id === 6 && (
                 <div className='mt-5 relative'>
-                    <div className={`absolute -bottom-5 right-0`}>
+                    <div className={`absolute -bottom-5 right-0 ${copied ? "block" : "block"
+                  }`}>
                         <Lottie options={{
                             loop:copied,
                             autoplay:copied,
@@ -156,8 +156,6 @@ export const BentoGridItem = ({
             ) }
             </div>  
         </div>
-     
     </div>
-   
   );
 };

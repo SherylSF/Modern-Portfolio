@@ -6,13 +6,13 @@ import { socialMedia } from '@/data'
 const Footer = () => {
   return (
     <footer className="w-full pt-10 pb-10" id="contact">
-        <div className="w-full absolute left-0 -bottom-72 min-h-96">
+        {/* <div className="w-full absolute left-0 -bottom-72 min-h-96">
             <img
               src="/footr-grid.svg"
               alt="grid"
               className="w-full h-full opacity-50"
             />
-        </div>
+        </div> */}
         <div className="flex flex-col items-center">
             <h1 className="heading lg:max-w-[45vw]">Contact Me</h1>
             <a href="mailto:sherylkuan327@gmail.com">
