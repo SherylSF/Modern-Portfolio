@@ -8,8 +8,8 @@ export const navItems = [
     {
       id: 1,
       title: "About Me",
-      description: "A risk and compliance manager turned software engineer working on personal projects mostly using Javascript, React, Node, Express, HTML and CSS. Since graduating from the web development bootcamp, I have been applying all the knowledge gained from the bootcamp while taking up other programming languages and framework such as Typescript, Python and Django, and strengthening my understanding on data structures and algorithms.",
-      description1: "I look forward to leveraging my technical and soft skills to develop applications and systems which can positively impact organizations or individuals with which I may have the opportunity to work in my next endeavour.",
+      description: "A risk and compliance manager turned software engineer working on personal projects mostly using Javascript, React, Node, Express, HTML and CSS. Since graduating from the web development bootcamp, I have been applying all the knowledge gained from the bootcamp while taking up other programming languages and framework such as Typescript, Python and Django, and also strengthening my understanding on data structures and algorithms.",
+      description1: "I look forward to leveraging my technical and soft skills to develop applications and systems which can positively impact organizations or individuals with which or whom I may have the opportunity to work in my next endeavour.",
       className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
       imgClassName: "w-full h-full",
       titleClassName: "justify-end",
